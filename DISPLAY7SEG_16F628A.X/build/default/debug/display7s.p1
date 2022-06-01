@@ -1,0 +1,166 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"19 display7s.c
+[; ;display7s.c: 19: unsigned char display7s(unsigned char v)
+[v _display7s `(uc ~T0 @X0 1 ef1`uc ]
+"20
+[; ;display7s.c: 20: {
+{
+[e :U _display7s ]
+"19
+[; ;display7s.c: 19: unsigned char display7s(unsigned char v)
+[v _v `uc ~T0 @X0 1 r1 ]
+"20
+[; ;display7s.c: 20: {
+[f ]
+"21
+[; ;display7s.c: 21:   switch(v)
+[e $U 3  ]
+"22
+[; ;display7s.c: 22:   {
+{
+"23
+[; ;display7s.c: 23:     case 0:
+[e :U 4 ]
+"24
+[; ;display7s.c: 24:       return 0xEE;
+[e ) -> -> 238 `i `uc ]
+[e $UE 1  ]
+"25
+[; ;display7s.c: 25:     case 1:
+[e :U 5 ]
+"26
+[; ;display7s.c: 26:       return 0x28;
+[e ) -> -> 40 `i `uc ]
+[e $UE 1  ]
+"27
+[; ;display7s.c: 27:     case 2:
+[e :U 6 ]
+"28
+[; ;display7s.c: 28:       return 0xCD;
+[e ) -> -> 205 `i `uc ]
+[e $UE 1  ]
+"29
+[; ;display7s.c: 29:     case 3:
+[e :U 7 ]
+"30
+[; ;display7s.c: 30:       return 0x6D;
+[e ) -> -> 109 `i `uc ]
+[e $UE 1  ]
+"31
+[; ;display7s.c: 31:     case 4:
+[e :U 8 ]
+"32
+[; ;display7s.c: 32:       return 0x2B;
+[e ) -> -> 43 `i `uc ]
+[e $UE 1  ]
+"33
+[; ;display7s.c: 33:     case 5:
+[e :U 9 ]
+"34
+[; ;display7s.c: 34:       return 0x67;
+[e ) -> -> 103 `i `uc ]
+[e $UE 1  ]
+"35
+[; ;display7s.c: 35:     case 6:
+[e :U 10 ]
+"36
+[; ;display7s.c: 36:       return 0xE7;
+[e ) -> -> 231 `i `uc ]
+[e $UE 1  ]
+"37
+[; ;display7s.c: 37:     case 7:
+[e :U 11 ]
+"38
+[; ;display7s.c: 38:       return 0x2C;
+[e ) -> -> 44 `i `uc ]
+[e $UE 1  ]
+"39
+[; ;display7s.c: 39:     case 8:
+[e :U 12 ]
+"40
+[; ;display7s.c: 40:       return 0xEF;
+[e ) -> -> 239 `i `uc ]
+[e $UE 1  ]
+"41
+[; ;display7s.c: 41:     case 9:
+[e :U 13 ]
+"42
+[; ;display7s.c: 42:       return 0x6F;
+[e ) -> -> 111 `i `uc ]
+[e $UE 1  ]
+"43
+[; ;display7s.c: 43:     case 10:
+[e :U 14 ]
+"44
+[; ;display7s.c: 44:       return 0xAF;
+[e ) -> -> 175 `i `uc ]
+[e $UE 1  ]
+"45
+[; ;display7s.c: 45:     case 11:
+[e :U 15 ]
+"46
+[; ;display7s.c: 46:       return 0xE3;
+[e ) -> -> 227 `i `uc ]
+[e $UE 1  ]
+"47
+[; ;display7s.c: 47:     case 12:
+[e :U 16 ]
+"48
+[; ;display7s.c: 48:       return 0xC6;
+[e ) -> -> 198 `i `uc ]
+[e $UE 1  ]
+"49
+[; ;display7s.c: 49:     case 13:
+[e :U 17 ]
+"50
+[; ;display7s.c: 50:       return 0xE9;
+[e ) -> -> 233 `i `uc ]
+[e $UE 1  ]
+"51
+[; ;display7s.c: 51:     case 14:
+[e :U 18 ]
+"52
+[; ;display7s.c: 52:       return 0xC7;
+[e ) -> -> 199 `i `uc ]
+[e $UE 1  ]
+"53
+[; ;display7s.c: 53:     case 15:
+[e :U 19 ]
+"54
+[; ;display7s.c: 54:       return 0x87;
+[e ) -> -> 135 `i `uc ]
+[e $UE 1  ]
+"55
+[; ;display7s.c: 55:     default:
+[e :U 20 ]
+"56
+[; ;display7s.c: 56:       return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 1  ]
+"57
+[; ;display7s.c: 57:   }
+}
+[e $U 2  ]
+[e :U 3 ]
+[e [\ -> _v `i , $ -> 0 `i 4
+ , $ -> 1 `i 5
+ , $ -> 2 `i 6
+ , $ -> 3 `i 7
+ , $ -> 4 `i 8
+ , $ -> 5 `i 9
+ , $ -> 6 `i 10
+ , $ -> 7 `i 11
+ , $ -> 8 `i 12
+ , $ -> 9 `i 13
+ , $ -> 10 `i 14
+ , $ -> 11 `i 15
+ , $ -> 12 `i 16
+ , $ -> 13 `i 17
+ , $ -> 14 `i 18
+ , $ -> 15 `i 19
+ 20 ]
+[e :U 2 ]
+"59
+[; ;display7s.c: 59: }
+[e :UE 1 ]
+}
