@@ -1,0 +1,553 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+"19 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\itoa.c
+[v _itoa itoa `(v  1 e 1 0 ]
+"24 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\lcd.c
+[v _lcd_wr lcd_wr `(v  1 e 1 0 ]
+"29
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"40
+[v _lcd_dat lcd_dat `(v  1 e 1 0 ]
+"51
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"70
+[v _lcd_str lcd_str `(v  1 e 1 0 ]
+"23 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\serial.c
+[v _serial_init serial_init `(v  1 e 1 0 ]
+"43
+[v _serial_tx serial_tx `(v  1 e 1 0 ]
+"57
+[v _serial_rx serial_rx `(uc  1 e 1 0 ]
+"103 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\Serial_Tank.c
+[v _RB0_RET RB0_RET `II(v  1 e 1 0 ]
+"109
+[v _main main `(v  1 e 1 0 ]
+"148
+[v _telaUmTexto telaUmTexto `(v  1 e 1 0 ]
+"168
+[v _telaUm telaUm `(v  1 e 1 0 ]
+"214
+[v _automatico automatico `(v  1 e 1 0 ]
+"241
+[v _criasetpoint criasetpoint `(v  1 e 1 0 ]
+"359
+[v _manual manual `(v  1 e 1 0 ]
+"366
+[v _configura configura `(v  1 e 1 0 ]
+"372
+[v _EtapaCinco EtapaCinco `(v  1 e 1 0 ]
+"470
+[v _get_volume get_volume `(ui  1 e 2 0 ]
+"481
+[v _get_temperatura get_temperatura `(ui  1 e 2 0 ]
+[s S461 . 1 `uc 1 C 1 0 :1:0 
+`uc 1 DC 1 0 :1:1 
+`uc 1 Z 1 0 :1:2 
+`uc 1 nPD 1 0 :1:3 
+`uc 1 nTO 1 0 :1:4 
+`uc 1 RP 1 0 :2:5 
+`uc 1 IRP 1 0 :1:7 
+]
+"100 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[s S469 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RP0 1 0 :1:5 
+`uc 1 RP1 1 0 :1:6 
+]
+[s S473 . 1 `uc 1 CARRY 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ZERO 1 0 :1:2 
+]
+[u S477 . 1 `S461 1 . 1 0 `S469 1 . 1 0 `S473 1 . 1 0 ]
+[v _STATUSbits STATUSbits `VES477  1 e 1 @3 ]
+[s S122 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"234
+[u S131 . 1 `S122 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES131  1 e 1 @6 ]
+"341
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S410 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+"415
+[u S414 . 1 `S410 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES414  1 e 1 @9 ]
+[s S498 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"478
+[s S507 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S512 . 1 `S498 1 . 1 0 `S507 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES512  1 e 1 @11 ]
+[s S354 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"550
+[u S363 . 1 `S354 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES363  1 e 1 @12 ]
+[s S307 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"995
+[s S316 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S320 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S323 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S326 . 1 `S307 1 . 1 0 `S316 1 . 1 0 `S320 1 . 1 0 `S323 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES326  1 e 1 @24 ]
+"1060
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1067
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1376
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S23 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1455
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES32  1 e 1 @135 ]
+"1500
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S62 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 PSPMODE 1 0 :1:4 
+`uc 1 IBOV 1 0 :1:5 
+`uc 1 OBF 1 0 :1:6 
+`uc 1 IBF 1 0 :1:7 
+]
+"1579
+[u S71 . 1 `S62 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES71  1 e 1 @137 ]
+[s S270 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2026
+[s S279 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S283 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S286 . 1 `S270 1 . 1 0 `S279 1 . 1 0 `S283 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES286  1 e 1 @152 ]
+"2081
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2289
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"2296
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+"2317
+[v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
+[s S441 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"2332
+[u S448 . 1 `S441 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES448  1 e 1 @396 ]
+"2362
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"2574
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2604
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"2607
+[v _INTEDG INTEDG `VEb  1 e 0 @1038 ]
+"2610
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"2688
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"75 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\Serial_Tank.c
+[v _valori valori `ui  1 e 2 0 ]
+"78
+[v _buff buff `[6]uc  1 e 6 0 ]
+"80
+[v _setEnable setEnable `i  1 e 2 0 ]
+"81
+[v _setVolm setVolm `ui  1 e 2 0 ]
+"82
+[v _setTemp setTemp `ui  1 e 2 0 ]
+"83
+[v _setAgit setAgit `ui  1 e 2 0 ]
+"95
+[v _enableRB0 enableRB0 `uc  1 e 1 0 ]
+"96
+[v _enableRB1 enableRB1 `uc  1 e 1 0 ]
+"97
+[v _enableRB2 enableRB2 `uc  1 e 1 0 ]
+"98
+[v _enableRB3 enableRB3 `uc  1 e 1 0 ]
+"99
+[v _mostrandoTexto mostrandoTexto `uc  1 e 1 0 ]
+"101
+[v _ret ret `uc  1 e 1 0 ]
+"109
+[v _main main `(v  1 e 1 0 ]
+{
+"146
+} 0
+"168
+[v _telaUm telaUm `(v  1 e 1 0 ]
+{
+"212
+} 0
+"148
+[v _telaUmTexto telaUmTexto `(v  1 e 1 0 ]
+{
+"166
+} 0
+"359
+[v _manual manual `(v  1 e 1 0 ]
+{
+"364
+} 0
+"214
+[v _automatico automatico `(v  1 e 1 0 ]
+{
+"239
+} 0
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+"9
+[v eeprom_read@addr addr `uc  1 a 1 3 ]
+"19
+} 0
+"372 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\Serial_Tank.c
+[v _EtapaCinco EtapaCinco `(v  1 e 1 0 ]
+{
+"373
+[v EtapaCinco@waiting waiting `uc  1 a 1 64 ]
+"468
+} 0
+"470
+[v _get_volume get_volume `(ui  1 e 2 0 ]
+{
+"473
+[v get_volume@aux aux `ui  1 a 2 6 ]
+"472
+[v get_volume@auxl auxl `ui  1 a 2 4 ]
+"471
+[v get_volume@auxh auxh `ui  1 a 2 2 ]
+"479
+} 0
+"481
+[v _get_temperatura get_temperatura `(ui  1 e 2 0 ]
+{
+"484
+[v get_temperatura@aux aux `ui  1 a 2 6 ]
+"483
+[v get_temperatura@auxl auxl `ui  1 a 2 4 ]
+"482
+[v get_temperatura@auxh auxh `ui  1 a 2 2 ]
+"490
+} 0
+"43 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\serial.c
+[v _serial_tx serial_tx `(v  1 e 1 0 ]
+{
+[v serial_tx@val val `uc  1 a 1 wreg ]
+[v serial_tx@val val `uc  1 a 1 wreg ]
+[v serial_tx@val val `uc  1 a 1 2 ]
+"46
+} 0
+"57
+[v _serial_rx serial_rx `(uc  1 e 1 0 ]
+{
+"58
+[v serial_rx@to to `ui  1 a 2 6 ]
+"57
+[v serial_rx@timeout timeout `ui  1 p 2 2 ]
+"74
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 48 ]
+[v ___flge@ff2 ff2 `d  1 p 4 52 ]
+"19
+} 0
+"366 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\Serial_Tank.c
+[v _configura configura `(v  1 e 1 0 ]
+{
+"370
+} 0
+"241
+[v _criasetpoint criasetpoint `(v  1 e 1 0 ]
+{
+"342
+[v criasetpoint@auxVolm2 auxVolm2 `ui  1 a 2 14 ]
+"243
+[v criasetpoint@auxVolm auxVolm `ui  1 a 2 22 ]
+"247
+[v criasetpoint@attTexto attTexto `i  1 a 2 20 ]
+"244
+[v criasetpoint@auxTemp auxTemp `ui  1 a 2 18 ]
+"248
+[v criasetpoint@progressao progressao `i  1 a 2 16 ]
+"245
+[v criasetpoint@auxAgit auxAgit `ui  1 a 2 12 ]
+"249
+[v criasetpoint@wait wait `i  1 a 2 10 ]
+"241
+[v criasetpoint@opcao opcao `i  1 p 2 5 ]
+"357
+} 0
+"70 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\lcd.c
+[v _lcd_str lcd_str `(v  1 e 1 0 ]
+{
+"72
+[v lcd_str@i i `uc  1 a 1 9 ]
+"70
+[v lcd_str@str str `*.26DCuc  1 p 2 6 ]
+"79
+} 0
+"40
+[v _lcd_dat lcd_dat `(v  1 e 1 0 ]
+{
+[v lcd_dat@val val `uc  1 a 1 wreg ]
+[v lcd_dat@val val `uc  1 a 1 wreg ]
+"42
+[v lcd_dat@val val `uc  1 a 1 5 ]
+"49
+} 0
+"19 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\itoa.c
+[v _itoa itoa `(v  1 e 1 0 ]
+{
+[v itoa@val val `ui  1 p 2 7 ]
+[v itoa@str str `*.4uc  1 p 1 9 ]
+"27
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 4 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+{
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@value value `uc  1 p 1 2 ]
+[v eeprom_write@addr addr `uc  1 a 1 4 ]
+"9
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 18 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 17 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 8 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 16 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 79 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 78 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 74 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S806 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S811 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S814 . 4 `l 1 i 4 0 `d 1 f 4 0 `S806 1 fAsBytes 4 0 `S811 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S814  1 a 4 68 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 63 ]
+[s S883 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S886 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S883 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S886  1 a 2 72 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 67 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 62 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 61 ]
+"8
+[v ___flmul@b b `d  1 p 4 48 ]
+[v ___flmul@a a `d  1 p 4 52 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 2 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 0 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 2 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 4 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 42 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 35 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 40 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 47 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 46 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 39 ]
+"8
+[v ___fldiv@a a `d  1 p 4 22 ]
+[v ___fldiv@b b `d  1 p 4 26 ]
+"185
+} 0
+"23 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\serial.c
+[v _serial_init serial_init `(v  1 e 1 0 ]
+{
+"41
+} 0
+"51 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\lcd.c
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"68
+} 0
+"29
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@val val `uc  1 a 1 wreg ]
+[v lcd_cmd@val val `uc  1 a 1 wreg ]
+"31
+[v lcd_cmd@val val `uc  1 a 1 5 ]
+"38
+} 0
+"24
+[v _lcd_wr lcd_wr `(v  1 e 1 0 ]
+{
+[v lcd_wr@val val `uc  1 a 1 wreg ]
+[v lcd_wr@val val `uc  1 a 1 wreg ]
+"26
+[v lcd_wr@val val `uc  1 a 1 2 ]
+"27
+} 0
+"103 C:\Users\LEGENDA\Downloads\TOMARA_QUE_SEJA_O_ULTIMO (1)\Serial_Tank_16F877A.X\Serial_Tank.c
+[v _RB0_RET RB0_RET `II(v  1 e 1 0 ]
+{
+"107
+} 0
